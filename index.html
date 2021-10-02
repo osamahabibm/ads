@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normlize.css" />
+
+    <title>Projct-Ads</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-class fex sticky r-nav">
+      <div class="container">
+        <div class="nav-navbar">
+          <div class="logo">
+            <a href="#"><img src="image/logo.png" /></a>
+          </div>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenavs()"></i>
+            <ul>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-home"></i></span> Home</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-angle-double-down"></i></span>
+                  About</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-comment"></i></span> Contact</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-users-cog"></i></span> Service</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="login">
+            <a href="#"
+              ><span><i class="fas fa-sign-in-alt"></i></span> Login</a
+            >
+            <a href="#"
+              ><span><i class="fas fa-plus-circle"></i></span> Add Ads</a
+            >
+          </div>
+          <div>
+            <i class="fa fa-bars" onclick="shownavs()"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header-Taps -->
+    <header class="header-class" id="header-id">
+      <div class="container">
+        <div class="text-header text-center m-btn">
+          <h2>Search and add your ad easily and for free</h2>
+        </div>
+        <div class="box-header">
+          <div class="links-tap">
+            <a href="#">real estates</a>
+            <a href="#">Cars and spare parts</a>
+            <a href="#">Pets</a>
+            <a href="#">House furniture</a>
+            <a href="#">Clothes and supplies</a>
+            <a href="#">sports & Books</a>
+            <a href="#">services</a>
+            <a href="#">Careers</a>
+            <a href="#">Electronics and home appliances</a>
+            <a href="#">Tablets and accessories</a>
+            <a href="#">industry</a>
+          </div>
+          <!-- Start links-tap mobile -->
+          <div class="card">
+            <div class="content">
+              <h3>Some Famous</h3>
+              <div class="toggle">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </div>
+            </div>
+
+            <ul class="navigation">
+              <li><a href="#">real estates</a></li>
+              <li><a href="#">Cars and spare parts</a></li>
+              <li><a href="#">Pets</a></li>
+              <li><a href="#">House furniture</a></li>
+              <li><a href="#">Clothes and supplies</a></li>
+              <li><a href="#">sports & Books</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Electronics and home appliances</a></li>
+              <li><a href="#">Tablets and accessories</a></li>
+              <li><a href="#">industry</a></li>
+            </ul>
+          </div>
+          <!-- End links-tap mobile -->
+          <div class="header-search">
+            <form action="" id="form">
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+              <button type="button" class="btn btn-warning">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Script JavaScript From Mobile-Responsive -->
+    <script>
+      // Navbar Responsiv
+      var navLinks = document.getElementById("navLinks");
+      function shownavs() {
+        navLinks.style.right = "0";
+      }
+      function hidenavs() {
+        navLinks.style.right = "-200px";
+      }
+
+      //   Links-tap From Mobile
+      const card = document.querySelector(".card");
+      const cardtoggle = document.querySelector(".toggle");
+      cardtoggle.onclick = function () {
+        card.classList.toggle("active");
+      };
+    </script>
+
+    <!-- Java Script main src -->
+    <script src="lib/jquery.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
