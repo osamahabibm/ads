@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gallary</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/pager.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <link rel="stylesheet" href="css/normlize.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-class sticky r-nav">
+      <div class="container">
+        <div class="nav-navbar">
+          <i class="fa fa-bars" onclick="shownavs()"></i>
+
+          <div class="logo">
+            <a href="#"><ion-icon name="pulse-outline"></ion-icon></a>
+          </div>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenavs()"></i>
+            <ul>
+              <li>
+                <a href="index.html">
+                  <span><i class="fas fa-home"></i></span> Home</a
+                >
+              </li>
+              <li>
+                <a href="aboutUs.html"
+                  ><span><i class="fas fa-angle-double-down"></i></span>
+                  About</a
+                >
+              </li>
+              <li>
+                <a href="contactUs.html"
+                  ><span><i class="fas fa-comment"></i></span> Contact</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-users-cog"></i></span> Service</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="login">
+            <a href="login.html"
+              ><span><i class="fas fa-sign-in-alt"></i></span> Login</a
+            >
+            <a href="#"
+              ><span><i class="fas fa-plus-circle"></i></span> Add Ads</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Heder-title -->
+    <header class="header-class-multpage" id="header-id">
+      <div class="container">
+        <div class="text-header m-btn">
+          <h2>gallary</h2>
+        </div>
+      </div>
+    </header>
+
+    <!-- gallary -->
+    <div class="containerr">
+      <div class="card-contentt" style="display: none">
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="card-image">
+            <img src="image/pexels-tino-7252309.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Card 01</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div class="paginationn">
+          <li class="page-itemm previous-pagee disablee">
+            <a class="page-linkk" href="#">Prev</a>
+          </li>
+          <li class="page-itemm current-pagee activee">
+            <a class="page-linkk" href="#">1</a>
+          </li>
+          <li class="page-itemm dotss">
+            <a class="page-linkk" href="#">...</a>
+          </li>
+          <li class="page-itemm current-pagee">
+            <a class="page-linkk" href="#">5</a>
+          </li>
+          <li class="page-itemm current-pagee">
+            <a class="page-linkk" href="#">6</a>
+          </li>
+          <li class="page-itemm dotss">
+            <a class="page-linkk" href="#">...</a>
+          </li>
+          <li class="page-itemm current-pagee">
+            <a class="page-linkk" href="#">10</a>
+          </li>
+          <li class="page-itemm next-pagee">
+            <a class="page-linkk" href="#">Next</a>
+          </li>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="section-parts">
+          <div class="footer-logo">
+            <a href="#"><ion-icon name="pulse-outline"></ion-icon></a>
+          </div>
+          <div class="part">
+            <h3>Part</h3>
+            <div class="parts-footer">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="TermsandConditions.html">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="FrequentlyAsked.html">Frequently Asked Questions</a>
+                </li>
+                <li><a href="">real estates</a></li>
+                <li><a href="">Cars and spare parts</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Tablets and accessories</a></li>
+                <li><a href="">Electronics and home appliances</a></li>
+                <li><a href="">House furniture</a></li>
+                <li><a href="">Clothes and supplies</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Services</a></li>
+                <li><a href="">Sports and books</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Pets</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-download">
+            <h3>Download App</h3>
+            <br />
+            <ul class="download-apps">
+              <li>
+                <a href=""><ion-icon name="logo-windows"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-apple"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-android"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">
+          <h3>&copy; 2021 All rights reserved</h3>
+          <div class="contant">
+            <ul>
+              <li>
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // Navbar Responsiv
+      var navLinks = document.getElementById("navLinks");
+      function shownavs() {
+        navLinks.style.left = "0";
+      }
+      function hidenavs() {
+        navLinks.style.left = "-200px";
+      }
+    </script>
+
+    <script type="text/javascript">
+      function getPageList(totalPages, page, maxLength) {
+        function range(start, end) {
+          return Array.from(Array(end - start + 1), (_, i) => i + start);
+        }
+
+        var sideWidth = maxLength < 9 ? 1 : 2;
+        var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+        var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+        if (totalPages <= maxLength) {
+          return range(1, totalPages);
+        }
+
+        if (page <= maxLength - sideWidth - 1 - rightWidth) {
+          return range(1, maxLength - sideWidth - 1).concat(
+            0,
+            range(totalPages - sideWidth + 1, totalPages)
+          );
+        }
+
+        if (page >= totalPages - sideWidth - 1 - rightWidth) {
+          return range(1, sideWidth).concat(
+            0,
+            range(
+              totalPages - sideWidth - 1 - rightWidth - leftWidth,
+              totalPages
+            )
+          );
+        }
+
+        return range(1, sideWidth).concat(
+          0,
+          range(page - leftWidth, page + rightWidth),
+          0,
+          range(totalPages - sideWidth + 1, totalPages)
+        );
+      }
+
+      $(function () {
+        var numberOfItems = $(".card-contentt .cardd").length;
+        var limitPerPage = 6; //How many card items visible per a page
+        var totalPages = Math.ceil(numberOfItems / limitPerPage);
+        var paginationSize = 7; //How many page elements visible in the pagination
+        var currentPage;
+
+        function showPage(whichPage) {
+          if (whichPage < 1 || whichPage > totalPages) return false;
+
+          currentPage = whichPage;
+
+          $(".card-contentt .cardd")
+            .hide()
+            .slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage)
+            .show();
+
+          $(".paginationn li").slice(1, -1).remove();
+
+          getPageList(totalPages, currentPage, paginationSize).forEach(
+            (item) => {
+              $("<li>")
+                .addClass("page-itemm")
+                .addClass(item ? "current-pagee" : "dotss")
+                .toggleClass("activee", item === currentPage)
+                .append(
+                  $("<a>")
+                    .addClass("page-linkk")
+                    .attr({ href: "javascript:void(0)" })
+                    .text(item || "...")
+                )
+                .insertBefore(".next-pagee");
+            }
+          );
+
+          $(".previous-pagee").toggleClass("disablee", currentPage === 1);
+          $(".next-pagee").toggleClass("disablee", currentPage === totalPages);
+          return true;
+        }
+
+        $(".paginationn").append(
+          $("<li>")
+            .addClass("page-itemm")
+            .addClass("previous-pagee")
+            .append(
+              $("<a>")
+                .addClass("page-linkk")
+                .attr({ href: "javascript:void(0)" })
+                .text("Prev")
+            ),
+          $("<li>")
+            .addClass("page-itemm")
+            .addClass("next-pagee")
+            .append(
+              $("<a>")
+                .addClass("page-linkk")
+                .attr({ href: "javascript:void(0)" })
+                .text("Next")
+            )
+        );
+
+        $(".card-contentt").show();
+        showPage(1);
+
+        $(document).on(
+          "click",
+          ".paginationn li.current-pagee:not(.activee)",
+          function () {
+            return showPage(+$(this).text());
+          }
+        );
+
+        $(".next-pagee").on("click", function () {
+          return showPage(currentPage + 1);
+        });
+
+        $(".previous-pagee").on("click", function () {
+          return showPage(currentPage - 1);
+        });
+      });
+    </script>
+
+    <!-- Java Script main src -->
+    <script src="lib/jquery.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

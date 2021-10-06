@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,6 +18,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="css/normlize.css" />
 
     <title>Projct-Ads</title>
@@ -26,25 +28,27 @@
     <nav class="nav-class fex sticky r-nav">
       <div class="container">
         <div class="nav-navbar">
+          <i class="fa fa-bars" onclick="shownavs()"></i>
+
           <div class="logo">
-            <a href="#"><img src="image/logo.png" /></a>
+            <a href="#"><ion-icon name="pulse-outline"></ion-icon></a>
           </div>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hidenavs()"></i>
             <ul>
               <li>
-                <a href="#">
+                <a href="index.html">
                   <span><i class="fas fa-home"></i></span> Home</a
                 >
               </li>
               <li>
-                <a href="#"
+                <a href="aboutUs.html"
                   ><span><i class="fas fa-angle-double-down"></i></span>
                   About</a
                 >
               </li>
               <li>
-                <a href="#"
+                <a href="contactUs.html"
                   ><span><i class="fas fa-comment"></i></span> Contact</a
                 >
               </li>
@@ -57,15 +61,12 @@
           </div>
 
           <div class="login">
-            <a href="#"
+            <a href="login.html"
               ><span><i class="fas fa-sign-in-alt"></i></span> Login</a
             >
             <a href="#"
               ><span><i class="fas fa-plus-circle"></i></span> Add Ads</a
             >
-          </div>
-          <div>
-            <i class="fa fa-bars" onclick="shownavs()"></i>
           </div>
         </div>
       </div>
@@ -141,23 +142,440 @@
       </div>
     </header>
 
-    <!-- Script JavaScript From Mobile-Responsive -->
+    <!-- Swiper-1 -->
+    <div class="container m-btn">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper mySwiper" style="margin-top: 20px">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="image/header (2).jpg" /></div>
+          <div class="swiper-slide"><img src="image/header (2).jpg" /></div>
+          <div class="swiper-slide"><img src="image/header (2).jpg" /></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Ads -->
+    <section class="new-ads m-btn" id="new-ads">
+      <div class="container">
+        <div class="new">
+          <h4>
+            New <span><ion-icon name="pricetag-outline"></ion-icon></span>
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ADS">
+            <div class="box-img-ads">
+              <img src="image/pexels-tino-7252309.jpg" />
+            </div>
+            <div class="info-ads">
+              <h4>450000 AED</h4>
+              <h3>Osama Habib's wife</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam inventore eveniet sapiente, voluptatibus odio laborum
+              </p>
+              <a href="#">
+                More Details
+                <span><ion-icon name="add-circle-outline"></ion-icon></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="more-btn">
+          <a href="gallary.html">More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster-Ads -->
+    <div class="poster-ads m-btn">
+      <div class="container">
+        <div class="poster-img">
+          <img src="image/poster-ads.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper-2 -->
+    <div class="swiperTow-star-ads">
+      <div class="container">
+        <div class="most-view">
+          <h3>
+            <span><ion-icon name="star-outline"></ion-icon></span>
+            Most viewed ads
+          </h3>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-1 mySwiper" style="margin-top: 20px">
+          <div class="swiper-wrapper swiperTow">
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ADS">
+                <div class="box-img-ads">
+                  <img src="image/pexels-tino-7252309.jpg" />
+                </div>
+                <div class="info-ads">
+                  <h4>450000 AED</h4>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam inventore eveniet sapiente, voluptatibus odio
+                    laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="section-parts">
+          <div class="footer-logo">
+            <a href="#"><ion-icon name="pulse-outline"></ion-icon></a>
+          </div>
+          <div class="part">
+            <h3>Part</h3>
+            <div class="parts-footer">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li>
+                  <a href="PrivacyPolicy.html">Privacy Policy</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="TermsandConditions.html">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="FrequentlyAsked.html">Frequently Asked Questions</a>
+                </li>
+                <li><a href="">real estates</a></li>
+                <li><a href="">Cars and spare parts</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Tablets and accessories</a></li>
+                <li><a href="">Electronics and home appliances</a></li>
+                <li><a href="">House furniture</a></li>
+                <li><a href="">Clothes and supplies</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Services</a></li>
+                <li><a href="">Sports and books</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Pets</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-download">
+            <h3>Download App</h3>
+            <br />
+            <ul class="download-apps">
+              <li>
+                <a href=""><ion-icon name="logo-windows"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-apple"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-android"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">
+          <h3>&copy; 2021 All rights reserved</h3>
+          <div class="contant">
+            <ul>
+              <li>
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script>
       // Navbar Responsiv
       var navLinks = document.getElementById("navLinks");
       function shownavs() {
-        navLinks.style.right = "0";
+        navLinks.style.left = "0";
       }
       function hidenavs() {
-        navLinks.style.right = "-200px";
+        navLinks.style.left = "-200px";
       }
-
-      //   Links-tap From Mobile
-      const card = document.querySelector(".card");
-      const cardtoggle = document.querySelector(".toggle");
-      cardtoggle.onclick = function () {
-        card.classList.toggle("active");
-      };
     </script>
 
     <!-- Java Script main src -->
